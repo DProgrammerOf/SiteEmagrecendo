@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+#ebooks .col-md-4 {
+	width: 30%;
+	margin: 0.5em;
+}
+
+#ebooks > div {
+	background-color: #FFF;
+	border-radius: 0.3em;
+	box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+	transition: transform .2s;
+}
+
+#ebooks > div:hover {
+	
+	-ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+
+#ebooks > div > figure > a > img {
+	border-radius: 2em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+#ebooks > div > figure > figcaption {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0.5em;
+	font-size: 110%;
+}
+
+#ebooks > div > figure > figcaption > a {
+	text-decoration: none;
+	color: #20c65c;
+}
+
+#ebooks > div > figure > figcaption > a:hover {
+	color: #3c763d;
+}
+
+#procurar-ebooks {
+	color: #1d1d1d;
+}
+
+#procurar-ebooks > div > div {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#procurar-ebooks > div > div > input {
+    margin-right: auto;
+    border-radius: 0.4em;
+    border-color: #1c86ee;
+    padding-left: 1em;
+}
+
+#preflistagem {
+	width: 30%;
+	float: right;
+}
+
+.filtro-ebook {
+	background-color: #FFF; 
+	box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+	border-radius: 0.3em;
+	padding: 2em;
+}
+
+.search-icon-ebook img {
+	background: #1c86ee;
+	border-radius: 100%;
+	width: 13%;
+	margin-left: -1.5em;
+}
+
+.descricao {
+	margin-top: 0.5em;
+	padding-bottom: 1em;
+	font-size: 75%;
+}
+
+.categorias {
+	margin-top: 1.5em;
+}
+
+.categorias h3 {
+
+}
+
+.categorias ul {
+	list-style-type: circle;
+}
+
+.categorias ul li {
+	margin-left: 2em;
+	margin-top: 0.8em;
+}
+
+.ebook-footer p {
+	font-family: 'Nunito Sans', sans-serif !important;
+	white-space: nowrap;
+}
+
+.vtotal {
+	line-height: 1.5em;
+	padding-top: 0.3em;
+}
+
+.vparcelado {
+	line-height: 2.5em;
+	font-size: 60%;
+}
+
+.vver {
+	line-height: 3.34em;
+}
+
+
+.ebook-footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.ebook-footer a:hover {
+	color: #1c86ee;
+}
